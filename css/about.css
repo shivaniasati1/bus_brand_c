@@ -1,0 +1,63 @@
+
+.main{
+	width: 100%;
+	display: inline-block;
+	margin-bottom: 50px;
+}
+*{
+	box-sizing: border-box;
+}
+h1{
+	position: relative;
+    padding: 0 0 0 0;
+    color: #54d691;
+    font-family: "Dosis", sans-serif;
+}
+img:hover{
+	width: 200px;
+	height: 200px;
+}
+h3,h6{
+	color: #54d691;
+}
+p{
+	padding-top: 20px;
+}
+.fl.w-20:hover{
+
+ -webkit-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.3);
+}
+.container{
+	padding-top: 15px;
+	padding-right: 15px;
+	padding-left: 15px;
+	background: #fff;
+}
+p{
+	color: #57647c;
+}
+.western{
+	margin-bottom: 15px;
+	font-size: 16px;
+	color: #57647c;
+}
+.fl{
+	float: left;
+}
+.w-20{
+     width: 20%;
+     margin-right: 25px;
+}
+.w-70{
+	width: 70%;
+	margin-right: 25px;
+
+}
+.western {
+    margin-bottom: 1%;
+    background: #fff;
+    line-height: 1.5;
+    text-align: justify;
+}

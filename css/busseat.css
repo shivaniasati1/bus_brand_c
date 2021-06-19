@@ -1,0 +1,135 @@
+/*-----Global CSS-------*/
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  height: auto;
+  display: inline-block;
+  /*font-family: 'Sansita Swashed', cursive;*/
+  position: relative;
+  background: #fff;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+
+.movie-container {
+  margin: 20px 0;
+}
+
+.movie-container select {
+  background-color: #fff;
+  border: 0;
+  border-radius: 5px;
+  font-size: 14px;
+  margin-left: 10px;
+  padding: 5px 15px 5px 15px;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.sleeper {
+  border: 1px solid black;
+  height: 40px;
+  width: 70px;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+.seat {
+  border: 1px solid black;
+  height: 20px;
+  width: 30px;
+  margin: 3px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.seat.selected {
+  background-color: #33FFE6;
+}
+
+.seat.occupied {
+  background-color: #FF3C33
+}
+
+.seat:not(.occupied):hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+.showcase .seat:not(.occupied):hover {
+  cursor: default;
+  transform: scale(1);
+}
+.sleeper.selected {
+  background-color: #33FFE6;
+}
+
+.sleeper.occupied {
+  background-color: #FF3C33
+}
+
+.sleeper:not(.occupied):hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+.showcase .sleeper:not(.occupied):hover {
+  cursor: default;
+  transform: scale(1);
+}
+
+.showcase {
+  background: rgba(0, 0, 0, 0.1);
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: #777;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.showcase li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 10px;
+}
+
+.showcase li small {
+  margin-left: 2px;
+}
+
+.row {
+  display: flex;
+}
+
+.screen {
+  background-color: #fff;
+  height: 70px;
+  width: 100%;
+  margin: 15px 0;
+  transform: rotateX(-45deg);
+  box-shadow: 0 3px 10px rgba(255, 255, 255, 0.7);
+}
+
+p.text {
+  font-weight: bold;
+}
+
+p.text span {
+  color: #FF3C33;
+}

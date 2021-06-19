@@ -1,0 +1,37 @@
+ /*-----Global CSS-------*/
+ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  height: auto;
+  display: inline-block;
+  /*font-family: 'Sansita Swashed', cursive;*/
+  position: relative;
+}
+.header{
+	margin-top: 5%;
+	text-align: center;
+	color: 
+}
+.header-title{
+	margin-top: 3%;
+	text-align: center;
+	margin-bottom: 4%;
+
+}
+.frm-header{
+	margin-left: 36%;
+}
+.frm-input{
+	margin-left: 33%;
+	word-spacing: 30px;
+}
+.btn{
+	margin-top: 3%;
+	margin-left: 43%;
+}

@@ -1,0 +1,87 @@
+/* global css */
+ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  height: auto;
+  display: inline-block;
+  /*font-family: 'Sansita Swashed', cursive;*/
+  position: relative;
+  background: #fff;
+}
+
+
+
+/*-----------side bar------------------*/
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 235px;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+
+ 
+.sidebar a.active {
+  background-color:#54d691;
+  color: white;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: #54d691;
+  color: white;
+}
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+
+.center {
+  margin: auto;
+  padding: 30px;
+}
+
+/*-------------End Side Bar----------------------*/
+
+
+.align{
+  text-align: center;
+}
+
+.button1{
+  background-color: #54d691;
+  border: none;
+  font-weight: bold;
+}

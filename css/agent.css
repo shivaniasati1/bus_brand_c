@@ -1,0 +1,205 @@
+/* global css */
+ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  height: auto;
+  display: inline-block;
+  /*font-family: 'Sansita Swashed', cursive;*/
+  position: relative;
+  background: #fff;
+}
+
+/* popup open */
+.input-container {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  width: 100%;
+  padding-bottom: 20px;
+}
+/*popup close*/
+
+
+/* navigation bar  */
+
+.bus-brand a {
+  color: #0DBB02;
+  font-size: 20px;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+
+.bus-brand {
+  border: 3px solid #54d691;
+  transition: all 2s;
+  float: left;
+  line-height: 20px;
+  padding: 10px;
+  margin: 5px;
+}
+
+.bus-brand:hover {
+  background: lightgray;
+}
+
+.icon {
+  padding: 5px;
+  color: #54d691;
+}
+/*navigation bar ends*/
+
+
+/*offer section items*/
+
+.item-container {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0));
+  transition: all 1s ease;
+  padding-bottom: 20px;
+}
+
+
+
+.item-img {
+  transition: all 1s ease-in-out;
+}
+
+.item-container:hover .item-img {
+  transform: scale(1.2);
+  opacity: 0.5;
+}
+
+.item-link {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #000;
+  font-size: 2rem;
+  border-top: 3px solid #cdd4d0;
+  border-bottom: 3px solid #cdd4d0;
+  transition: 1s all ease-in-out;
+  opacity: 0;
+ background-color: #fff;
+}
+
+.item-container:hover .item-link {
+  opacity: 1;
+
+}
+
+.item-link:hover {
+
+  border: 3px solid #cdd4d0;
+  background: #cdd4d0;
+  color:#000;
+
+}
+
+.item-container:hover {
+  outline: 10px solid #cdd4d0;
+  outline-offset: 0.8rem;
+}
+.container-fluid{
+     width: 100%; 
+    padding: 0 13%;
+    border: hidden;
+  
+}
+.cncc{
+  padding-top: 20px;
+}
+.cnc{
+    background-color:black;
+      width: 100%;
+      text-align: center;
+    padding: 13% 0;
+    font-size: 15px;
+
+}
+.cnc .cncc{
+    font-size: 3em;
+    color: #fff;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin-bottom: 0.2em;
+    width: 100%;
+}
+.cnc .cnccc{
+
+font-size: 1.16em;
+color: #fff;
+font-weight: normal;
+}
+.cnc .cncccc{
+  list-style: none;
+    margin-top: 3em;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.cnc .cncccc .cnccccc{
+  text-align: left;
+    padding-right: 3em;
+    line-height: 1.7em;
+    display: inline-block;
+}
+.cnc .cnccccc li{
+      display: inline-block;
+      color: #fff;
+      list-style: none;
+} 
+.xcn{
+    width: 74%;
+    padding: 0 13%;
+    overflow: hidden;
+    }
+.ccn{
+    border-bottom: 0.1em solid #d9d9d9;
+    border-top: 0.1em solid #d9d9d9;
+    padding: 5em 0;
+    list-style: none;
+    width: 70%;
+    margin: 0 auto;
+    padding-bottom: 5em;
+}
+.xcn .icc{
+      width: 38%;
+      margin-right: 40%;
+}
+.xcn li{
+    display: inline-block;
+    text-align: center;
+    line-height: 1.6em;
+    margin-top: 2em;
+    width: 45%;
+    vertical-align: top;
+    list-style: none;
+    display: inline-block;
+    vertical-align: top
+}*/
+a{
+  text-decoration: none;
+  color: #fff;
+  border: 0;
+    outline: 0;
+    vertical-align: baseline;
+}
+ul{
+      display:inline-block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px
+}
+h3{float: left;
+    margin: 5px 20px 0 0;
+    padding: 0;
+}

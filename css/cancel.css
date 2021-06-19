@@ -1,0 +1,34 @@
+ /*-----Global CSS-------*/
+ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  height: auto;
+  display: inline-block;
+  /*font-family: 'Sansita Swashed', cursive;*/
+  position: relative;
+
+}
+.header{
+	margin-top: 5%;
+}
+.input-container{
+	margin-top: 5%;
+	
+	letter-spacing: 15px;
+}
+.input-content{
+border: 0px;
+margin-left: 38%;
+}
+.btn{
+	margin-top: 5%;
+	margin-left: 40%;
+	margin-bottom: 5%;
+}
+
